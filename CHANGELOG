@@ -1,0 +1,23 @@
+# Changelog
+
+All notable changes to the Telegram Auto Filter Bot project will be documented in this file.
+
+## [v3.0.0] - Planned
+### Added
+- **Group Support:** The bot can now be added to and operated within Telegram groups, allowing members to search and request files directly in the group chat.
+
+## [v2.0.0] - Upcoming
+### Added
+- **Auto File Delete:** Introduced a feature to automatically delete delivered files or specific bot messages after a set period to keep chats clean and manage storage limitations.
+
+### Fixed
+- **Bug Fixes:** General stability improvements, edge-case error handling, and performance optimizations.
+
+## [v1.0.0] - Initial Release
+### Added
+- **Basic Bot Functionality:** Core search and delivery engine established.
+- **Auto-Indexing:** Automatically detects and saves new channel files to the database.
+- **MongoDB Integration:** Persistent storage for file metadata and user search queries.
+- **Inline Search Results:** Interactive, paginated button interface for seamless file selection.
+- **Direct File Delivery:** Uses `copy_message` to securely send files without requiring users to join the database channel.
+- **Admin Tools:** Commands for indexing (`/index`), reindexing (`/reindex`), checking stats (`/stats`), and broadcasting (`/broadcast`).
