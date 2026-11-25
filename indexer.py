@@ -16,3 +16,4 @@ async def index_channel_history(client, status_message):
         await status_message.edit(f"✅ **Indexing Complete!**\nSuccessfully indexed **{count}** files.")
     except Exception as e:
         await status_message.edit(f"❌ **Error during indexing:**\n`{str(e)}`")
+        
